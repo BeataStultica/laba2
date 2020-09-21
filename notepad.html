@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8" />
+	    <title>Notes</title>
+	    <script src="add.js" defer></script>
+	    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+		<div class="notepad">
+			<div id="headers">
+				<button id = 'add' class = 'button' onclick = 'add()'>Додати запис</button>
+				<div></div>
+			</div>
+			<div class="note_input">
+				<form action="add.js">
+				<input class = 'head_input' type = 'text' id = 'head_i' onkeydown="if(event.keyCode==13){return false;}">
+				<textarea class = 'text_input' id = 'text_i' type = 'text' rows = 18></textarea>
+				</form>
+			</div>
+		</div>
+    </body>
+</html>

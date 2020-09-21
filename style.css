@@ -1,0 +1,64 @@
+
+.notepad {
+	display: flex;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+}
+
+.note_input {
+	width: 84%;
+	flex-direction: column;
+	right: 5px;
+	top: 5px;
+}
+
+
+#head_i {
+
+	width: 100%;
+	font-size: xx-large;
+}
+#text_i {
+
+	width: 100%;
+	font-size: xx-large;
+
+}
+.headers{
+	
+	display: flex;
+}
+
+.button{
+	display: flex;
+	flex-direction: column;
+	height: 4rem;
+	width: 100%;
+	font-size: larger;
+
+}
+
+.active_button{
+	display: flex;
+	flex-direction: column;
+	height: 4rem;
+	width: 100%;
+	font-size: larger;
+	background-color: gray;
+
+}
+
+.delete_but{
+	display: fixed;
+	height: 5 px;
+	width: 20%;
+	margin-left: 80%;
+	font-size: xx-small;
+	background-color: red;
+
+}
+#add{
+	font-size: xx-large;
+}
