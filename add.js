@@ -59,7 +59,7 @@ function add(iner = "Новий запис", id = String(Math.random()).slice(2,
     delet.innerHTML = 'X';
     delet.id = id + ' ' +'d'
     delet.addEventListener("click", function(){
-        window.location.href = 'file:///C:/Users/dimon/OneDrive/Документи/JS/lr2_1/notepad.html?id=undefined'
+        window.location.href = window.location.origin + window.location.pathname +'?id=undefined'
         var el = document.getElementById(this.id.split(' ')[0]);
         el.parentNode.removeChild(el);
         localStorage.removeItem(this.id.split(' ')[0]);
@@ -87,7 +87,7 @@ function input_text(){
     delet.innerHTML = 'X';
     delet.id = active_e.id + ' d'
     delet.addEventListener("click", function(){
-        window.location.href = 'file:///C:/Users/dimon/OneDrive/Документи/JS/lr2_1/notepad.html?id=undefined'
+        window.location.href = window.location.origin + window.location.pathname +'?id=undefined'
         var el = document.getElementById(this.id.split(' ')[0]);
         el.parentNode.removeChild(el);
         localStorage.removeItem(this.id.split(' ')[0]);
