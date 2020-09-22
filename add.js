@@ -112,7 +112,7 @@ for (var i = 0; i < localStorage.length; i++){
 a = window.location.search
 id_t = a.split('=')[1];
 
-if (id_t != 'notes' && id_t !='undefined'){
+if (id_t != 'notes' && id_t !=undefined){
     ff(id_t)
     console.log(id_t);
 
