@@ -1,4 +1,3 @@
-globalThis.dos = new Map();
 const pushToURL = (name, key, value) => window.history.replaceState(null, null, `${name}?${key}=${value}`)
 
 
